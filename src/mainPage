@@ -1,0 +1,43 @@
+import React from 'react';
+//import logo from './logo.png'; // make sure you have an image named logo.png in the same folder
+
+export default function Home() {
+  const containerStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    minHeight: '100vh',
+    textAlign: 'center',
+    gap: '16px',
+    fontFamily: 'Segoe UI, sans-serif',
+  };
+
+  const titleStyle = {
+    fontSize: '36px',
+    fontWeight: 'bold',
+    color: '#222',
+  };
+
+  const sloganStyle = {
+    fontSize: '28px',
+    fontStyle: 'italic',
+    color: 'black',
+  };
+
+  const imageStyle = {
+    width: '150px',
+    height: '150px',
+    objectFit: 'contain',
+    marginBottom: '20px',
+  };
+
+  return (
+    <div style={containerStyle}>
+     
+      <div style={titleStyle}>AUTONOMOUS AID</div>
+      <div style={sloganStyle}>Anytime, Anywhere</div>
+    </div>
+  );
+}
+ // <img src={logo} alt="Autonomous Aid Logo" style={imageStyle} />
