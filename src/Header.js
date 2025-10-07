@@ -80,7 +80,7 @@ export default function Header() {
               cursor: 'pointer',
             }}
           > 
-            <span style={{ color: '#333', marginRight: '8px', fontSize: '30px' }}>✙</span> SwiftAid Drones
+            <span style={{ color: '#333', marginRight: '8px', fontSize: '26px' }}>✙</span> SwiftAid Drones
           </h1>
         
         </Link>
